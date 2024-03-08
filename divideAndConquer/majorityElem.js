@@ -3,7 +3,6 @@
 var majorityElement = function(nums) {
     return findMajorityElement(nums,0,nums.length-1)
 };
-
 function findMajorityElement(nums,left,right){
     if(left === right){
         return nums[left]
