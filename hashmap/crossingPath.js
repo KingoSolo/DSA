@@ -1,3 +1,4 @@
+
 var isPathCrossing = function(path) {
     
     const hashMap = new Map()
@@ -20,6 +21,7 @@ var isPathCrossing = function(path) {
     return false
 
 }
+
 
 
 
